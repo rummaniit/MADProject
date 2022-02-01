@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".Dhaka">-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ED7D65"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:src="@drawable/dhaka"
+                    android:padding="5sp">
+
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Dhaka Division"
+                    android:textSize="30sp"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:paddingTop="20sp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="10sp"
+            android:rowCount="1"
+            android:columnCount="1"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/dhakac"
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="10sp"
+
+                >
+                <ImageView
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:src="@drawable/dhakacity"
+                    android:padding="10sp">
+
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dhaka"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:paddingTop="30sp"
+                    android:paddingBottom="30sp"
+
+                    >
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/gazipur"
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="10sp"
+                >
+                <ImageView
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:src="@drawable/gazipurcity"
+                    android:padding="10sp">
+
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gazipur"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:paddingTop="30sp"
+                    android:paddingBottom="30sp"
+                    >
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/narsingdi"
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="10sp"
+                >
+                <ImageView
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:src="@drawable/narshindicity"
+                    android:padding="10sp">
+
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Narsingdi"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:paddingTop="30sp"
+                    android:paddingBottom="30sp"
+                    >
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="10sp"
+                >
+                <ImageView
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:src="@drawable/manikganjcity"
+                    android:padding="10sp">
+
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Manikganj"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:paddingTop="30sp"
+                    android:paddingBottom="30sp"
+                    >
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="10sp"
+                >
+                <ImageView
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:src="@drawable/munshiganjcity"
+                    android:padding="10sp">
+
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Munshiganj"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:paddingTop="30sp"
+                    android:paddingBottom="30sp"
+                    >
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="10sp"
+                >
+                <ImageView
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:src="@drawable/narayanganjcity"
+                    android:padding="10sp">
+
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Narayanganj"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:paddingTop="30sp"
+                    android:paddingBottom="30sp"
+                    >
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="10sp"
+                >
+                <ImageView
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:src="@drawable/sherpurcity"
+                    android:padding="10sp">
+
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sherpur"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:paddingTop="30sp"
+                    android:paddingBottom="30sp"
+                    >
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="fill"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="10sp"
+                >
+                <ImageView
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:src="@drawable/jamalpurcity"
+                    android:padding="10sp">
+
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jamalpur"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:paddingTop="30sp"
+                    android:paddingBottom="30sp"
+                    >
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
