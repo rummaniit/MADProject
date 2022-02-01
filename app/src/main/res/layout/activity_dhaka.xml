@@ -35,7 +35,9 @@
                     android:layout_width="100sp"
                     android:layout_height="100sp"
                     android:src="@drawable/dhaka"
-                    android:padding="5sp">
+                    android:padding="5sp"
+
+                    >
 
                 </ImageView>
                 <TextView
@@ -70,7 +72,7 @@
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 app:cardCornerRadius="10sp"
-
+                android:layout_margin="10sp"
                 >
                 <ImageView
                     android:layout_width="100sp"
@@ -101,6 +103,7 @@
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 app:cardCornerRadius="10sp"
+                android:layout_margin="10sp"
                 >
                 <ImageView
                     android:layout_width="100sp"
@@ -130,6 +133,7 @@
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 app:cardCornerRadius="10sp"
+                android:layout_margin="10sp"
                 >
                 <ImageView
                     android:layout_width="100sp"
@@ -158,6 +162,7 @@
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 app:cardCornerRadius="10sp"
+                android:layout_margin="10sp"
                 >
                 <ImageView
                     android:layout_width="100sp"
@@ -186,6 +191,7 @@
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 app:cardCornerRadius="10sp"
+                android:layout_margin="10sp"
                 >
                 <ImageView
                     android:layout_width="100sp"
@@ -214,6 +220,7 @@
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 app:cardCornerRadius="10sp"
+                android:layout_margin="10sp"
                 >
                 <ImageView
                     android:layout_width="100sp"
@@ -242,6 +249,7 @@
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 app:cardCornerRadius="10sp"
+                android:layout_margin="10sp"
                 >
                 <ImageView
                     android:layout_width="100sp"
@@ -270,6 +278,7 @@
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 app:cardCornerRadius="10sp"
+                android:layout_margin="10sp"
                 >
                 <ImageView
                     android:layout_width="100sp"
