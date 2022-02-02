@@ -41,7 +41,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Khulna Divisions"
+                    android:text="Khulna Division"
                     android:textSize="30sp"
                     android:textColor="@color/black"
                     android:textAlignment="center"

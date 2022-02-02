@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/MAD_Card/app/src/main/res/layout/activity_barishal.xml" value="0.11413043478260869" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/MAD_Card/app/src/main/res/layout/activity_chandpur.xml" value="0.1015625" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/MAD_Card/app/src/main/res/layout/activity_chattag.xml" value="0.1015625" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/MAD_Card/app/src/main/res/layout/activity_chattagram.xml" value="0.1015625" />
@@ -14,6 +15,8 @@
         <entry key="..\:/Users/Dell/AndroidStudioProjects/MAD_Card/app/src/main/res/layout/activity_main.xml" value="0.12" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/MAD_Card/app/src/main/res/layout/activity_maymanshingh.xml" value="0.1015625" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/MAD_Card/app/src/main/res/layout/activity_narsingdi.xml" value="0.1015625" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/MAD_Card/app/src/main/res/layout/activity_rajsahi.xml" value="0.11413043478260869" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/MAD_Card/app/src/main/res/layout/activity_rangpur.xml" value="0.11413043478260869" />
         <entry key="..\:/Users/Dell/AndroidStudioProjects/MAD_Card/app/src/main/res/layout/activity_sylhet.xml" value="0.1015625" />
       </map>
     </option>

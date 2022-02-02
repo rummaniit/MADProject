@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    public CardView dhaka,khulna,chattagram,maymanshingh,sylhet;
+    public CardView dhaka,khulna,chattagram,maymanshingh,sylhet,barishal,rangpur,rajsahi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,12 +20,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         chattagram=(CardView) findViewById(R.id.chattagram);
         maymanshingh=(CardView) findViewById(R.id.maymanshingh);
         sylhet=(CardView) findViewById(R.id.sylhet);
+        barishal=(CardView) findViewById(R.id.barishal);
+        rangpur=(CardView) findViewById(R.id.rangpur);
+        rajsahi=(CardView) findViewById(R.id.rajsahi);
 
         dhaka.setOnClickListener(this);
         khulna.setOnClickListener(this);
         chattagram.setOnClickListener(this);
         maymanshingh.setOnClickListener(this);
         sylhet.setOnClickListener(this);
+        barishal.setOnClickListener(this);
+        rangpur.setOnClickListener(this);
+        rajsahi.setOnClickListener(this);
     }
 
     @Override
@@ -50,6 +56,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.sylhet:
                 i=new Intent(this,sylhet.class);
+                startActivity(i);
+                break;
+            case R.id.barishal:
+                i=new Intent(this,barishal.class);
+                startActivity(i);
+                break;
+            case R.id.rangpur:
+                i=new Intent(this,rangpur.class);
+                startActivity(i);
+                break;
+            case R.id.rajsahi:
+                i=new Intent(this,rajsahi.class);
                 startActivity(i);
                 break;
 

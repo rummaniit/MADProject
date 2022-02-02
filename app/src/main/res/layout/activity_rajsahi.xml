@@ -41,7 +41,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Chattagram Division"
+                    android:text="Rajsahi Division"
                     android:textSize="30sp"
                     android:textColor="@color/black"
                     android:textAlignment="center"
@@ -82,7 +82,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="chattagram"
+                    android:text="Bogra"
                     android:textColor="@color/black"
                     android:textSize="30sp"
                     android:textAlignment="center"
@@ -113,7 +113,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cox's Bazar"
+                    android:text="Chapinawabganj"
                     android:textColor="@color/black"
                     android:textSize="30sp"
                     android:textAlignment="center"
@@ -126,7 +126,7 @@
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:id="@+id/chandpur"
+                android:id="@+id/Bhola"
                 android:layout_gravity="fill"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
@@ -143,7 +143,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Chandpur"
+                    android:text="Joypurhat"
                     android:textColor="@color/black"
                     android:textSize="30sp"
                     android:textAlignment="center"
@@ -172,7 +172,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Bandarban"
+                    android:text="Naogaon"
                     android:textColor="@color/black"
                     android:textSize="30sp"
                     android:textAlignment="center"
@@ -201,7 +201,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Khagrachhari"
+                    android:text="Natore"
                     android:textColor="@color/black"
                     android:textSize="30sp"
                     android:textAlignment="center"
@@ -213,6 +213,7 @@
                 </TextView>
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_gravity="fill"
                 android:layout_rowWeight="1"
@@ -223,14 +224,14 @@
                 <ImageView
                     android:layout_width="100sp"
                     android:layout_height="100sp"
-                    android:src="@drawable/feni"
+                    android:src="@drawable/khagrachhari"
                     android:padding="10sp">
 
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Feni"
+                    android:text="Pabna"
                     android:textColor="@color/black"
                     android:textSize="30sp"
                     android:textAlignment="center"
@@ -242,64 +243,93 @@
                 </TextView>
 
             </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_gravity="fill"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                app:cardCornerRadius="10sp"
-                android:layout_margin="10sp"
-                >
-                <ImageView
-                    android:layout_width="100sp"
-                    android:layout_height="100sp"
-                    android:src="@drawable/lakshmipur"
-                    android:padding="10sp">
+            <!--            <androidx.cardview.widget.CardView-->
+            <!--                android:layout_gravity="fill"-->
+            <!--                android:layout_rowWeight="1"-->
+            <!--                android:layout_columnWeight="1"-->
+            <!--                app:cardCornerRadius="10sp"-->
+            <!--                android:layout_margin="10sp"-->
+            <!--                >-->
+            <!--                <ImageView-->
+            <!--                    android:layout_width="100sp"-->
+            <!--                    android:layout_height="100sp"-->
+            <!--                    android:src="@drawable/feni"-->
+            <!--                    android:padding="10sp">-->
 
-                </ImageView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Lakshmipur"
-                    android:textColor="@color/black"
-                    android:textSize="30sp"
-                    android:textAlignment="center"
-                    android:layout_gravity="center"
-                    android:paddingTop="30sp"
-                    android:paddingBottom="30sp"
-                    >
+            <!--                </ImageView>-->
+            <!--                <TextView-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:text="Feni"-->
+            <!--                    android:textColor="@color/black"-->
+            <!--                    android:textSize="30sp"-->
+            <!--                    android:textAlignment="center"-->
+            <!--                    android:layout_gravity="center"-->
+            <!--                    android:paddingTop="30sp"-->
+            <!--                    android:paddingBottom="30sp"-->
+            <!--                    >-->
 
-                </TextView>
+            <!--                </TextView>-->
 
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_gravity="fill"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                app:cardCornerRadius="10sp"
-                android:layout_margin="10sp"
-                >
-                <ImageView
-                    android:layout_width="100sp"
-                    android:layout_height="100sp"
-                    android:src="@drawable/comilla"
-                    android:padding="10sp">
+            <!--            </androidx.cardview.widget.CardView>-->
+            <!--            <androidx.cardview.widget.CardView-->
+            <!--                android:layout_gravity="fill"-->
+            <!--                android:layout_rowWeight="1"-->
+            <!--                android:layout_columnWeight="1"-->
+            <!--                app:cardCornerRadius="10sp"-->
+            <!--                android:layout_margin="10sp"-->
+            <!--                >-->
+            <!--                <ImageView-->
+            <!--                    android:layout_width="100sp"-->
+            <!--                    android:layout_height="100sp"-->
+            <!--                    android:src="@drawable/lakshmipur"-->
+            <!--                    android:padding="10sp">-->
 
-                </ImageView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Comilla"
-                    android:textColor="@color/black"
-                    android:textSize="30sp"
-                    android:textAlignment="center"
-                    android:layout_gravity="center"
-                    android:paddingTop="30sp"
-                    android:paddingBottom="30sp"
-                    >
+            <!--                </ImageView>-->
+            <!--                <TextView-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:text="Lakshmipur"-->
+            <!--                    android:textColor="@color/black"-->
+            <!--                    android:textSize="30sp"-->
+            <!--                    android:textAlignment="center"-->
+            <!--                    android:layout_gravity="center"-->
+            <!--                    android:paddingTop="30sp"-->
+            <!--                    android:paddingBottom="30sp"-->
+            <!--                    >-->
 
-                </TextView>
+            <!--                </TextView>-->
 
-            </androidx.cardview.widget.CardView>
+            <!--            </androidx.cardview.widget.CardView>-->
+            <!--            <androidx.cardview.widget.CardView-->
+            <!--                android:layout_gravity="fill"-->
+            <!--                android:layout_rowWeight="1"-->
+            <!--                android:layout_columnWeight="1"-->
+            <!--                app:cardCornerRadius="10sp"-->
+            <!--                android:layout_margin="10sp"-->
+            <!--                >-->
+            <!--                <ImageView-->
+            <!--                    android:layout_width="100sp"-->
+            <!--                    android:layout_height="100sp"-->
+            <!--                    android:src="@drawable/comilla"-->
+            <!--                    android:padding="10sp">-->
+
+            <!--                </ImageView>-->
+            <!--                <TextView-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:text="Comilla"-->
+            <!--                    android:textColor="@color/black"-->
+            <!--                    android:textSize="30sp"-->
+            <!--                    android:textAlignment="center"-->
+            <!--                    android:layout_gravity="center"-->
+            <!--                    android:paddingTop="30sp"-->
+            <!--                    android:paddingBottom="30sp"-->
+            <!--                    >-->
+
+            <!--                </TextView>-->
+
+            <!--            </androidx.cardview.widget.CardView>-->
         </GridLayout>
 
     </LinearLayout>

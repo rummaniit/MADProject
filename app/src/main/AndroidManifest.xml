@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MAD_Card">
         <activity
+            android:name=".rajsahi"
+            android:exported="false" />
+        <activity
+            android:name=".rangpur"
+            android:exported="false" />
+        <activity
+            android:name=".barishal"
+            android:exported="false" />
+        <activity
             android:name=".narsingdi"
             android:exported="false" />
         <activity
